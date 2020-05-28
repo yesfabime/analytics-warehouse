@@ -6,6 +6,7 @@ permalink: /use-cases/
 --- 
 # Server Side Tracking
 Everyone is doing user tracking on their websites, and there are a lot of tools on the market that are helping to achieve this. But there is one giant that is dominating this whole market - Google Analytics. So far so good. If you make use of the tracking capabilites of Google Analytics on your page and you work within European Law, you will have a new big challenge.
+
 Before, data get pushed directly to Google Analytics. In the future this needs to change due to a new law of the EU. The European Union decided by law that the tracking of a certain person on a website needs to be processed via first-party servers of the website owner. This implies that if a person scrolls through your website and meanwile tracking events will be fired directly to GA servers, you are not compliant with the new law of the EU. This is the reason why the Server-Side-Tracking stream got started. [Click here for further information.]({{site.baseurl}}/use-cases/sst/)
 
 # Backend for Customer Counter
