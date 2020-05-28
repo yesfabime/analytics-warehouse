@@ -1,5 +1,5 @@
 ---
-title: Code templates
+title: AW - Use Cases
 layout: template
 filename: use-cases.md
 permalink: /use-cases/
