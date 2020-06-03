@@ -25,7 +25,7 @@ To make sure the schema table within BigQuery is a valid representation of the o
 Now you are ready to go. Just fill in [here](https://forms.gle/aqMAffUZVa3yj2aT8){:target="_blank"} some information, then we will double check everything. If every component is as it is expected, then you will receive an email with detailed information of what we've created for you
 
 **4. Test your authentication**<br/>
-After the double checkup from our side is done, we will provide you a GCP service account that you can use for authentication. Code snippets of how to intergate authentication and how to test your auth, can be found [here]({{site.baseurl}}/services/pipas/stream/test-auth/){:target="_blank"}.
+After the check of all information you have provided to us you will receive an email that the Pipas has been deployed successful. The last step on your side it so integrate the authentication. Code snippets of how to intergate authentication and how to test your auth, can be found [here]({{site.baseurl}}/services/pipas/stream/test-auth/){:target="_blank"}.
 
 **5. You are completely ready to use your pipe**<br/>
 Congratulations - now you have the ability to stream your data in realtime to the Analytics Warehouse. This is an huge step for you and for us. Thanks for being now on the Analytics train!

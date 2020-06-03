@@ -5,4 +5,4 @@ filename: test-authentication.md
 permalink: /services/pipas/stream/test-auth/
 --- 
 # Implement authentication
-You have received a Google Service Account key by one of the Analytics Platform engineers. With this service account key you need to implement your authentication against the Data Receiver Service.
+Currently we are working on the integration of the FIFA authentication. For more detail how to authenticate at the moment, ping seitzf@mediamarktsaturn.com
