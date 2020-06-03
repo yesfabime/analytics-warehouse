@@ -1,5 +1,5 @@
 ---
-title: Why we need an arch tenet?
+title: Analytics Warehouse - Why we need an arch tenet?
 layout: template
 filename: why-need-arch-tenet.md
 permalink: /arch-principles-tenet/why-need-arch-tenet/

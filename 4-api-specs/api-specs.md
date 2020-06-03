@@ -1,5 +1,5 @@
 ---
-title: API specs
+title: Analytics Warehouse - API specs
 layout: template
 filename: api-specs.md
 permalink: /api-specs/

@@ -1,5 +1,5 @@
 ---
-title: Onboarding Guide
+title: Analytics Warehouse - Onboarding Guide
 layout: template
 filename: onboarding-guide-main.md
 permalink: /onboarding-guide/

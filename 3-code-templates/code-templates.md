@@ -1,5 +1,5 @@
 ---
-title: Code templates
+title: Analytics Warehouse - Code templates
 layout: template
 filename: code-templates.md
 permalink: /code-templates/

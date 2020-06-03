@@ -1,5 +1,5 @@
 ---
-title: Code templates
+title: Analytics Warehouse - FAQ
 layout: template
 filename: faq.md
 permalink: /faq/
