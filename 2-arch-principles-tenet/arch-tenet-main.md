@@ -16,7 +16,7 @@ permalink: /arch-principles-tenet/
 7. Serverless as a core pillar
 8. Reference architecture patterns
 	- [Pipe as a Service - Stream]({{site.baseurl}}/arch-principles-tenet/ref-patterns/pipas-stream/)
-	- Pipe as a Service - Batch
+	- [Pipe as a Service - Batch]({{site.baseurl}}/arch-principles-tenet/ref-patterns/pipas-batch/)
 9. Fail fast, fix forward - way of working 
 10. Microservices
 	- Oauth2 Authentication

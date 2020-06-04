@@ -53,5 +53,5 @@ Based on the description above, now you need to choose what you are able to use 
 Based on the type of data ingest you have chosen, have a look at the corresponding docs:
 {:refdef: id="custom-ol-center"} 
 - [Pipas - Stream]({{site.baseurl}}/services/pipas/stream/)
-- [Pipas - Batch](https://analytics.mediamarktsaturn.com/docs/pipas/batch)
+- [Pipas - Batch]({{site.baseurl}}/services/pipas/batch/)
 {: refdef}
