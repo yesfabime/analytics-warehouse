@@ -30,3 +30,4 @@ these days. Some Examples:
 
 [Source: [The-world-beyond-batch-streaming-101](https://www.oreilly.com/radar/the-world-beyond-batch-streaming-101/){:target="_blank"}]
 
+
