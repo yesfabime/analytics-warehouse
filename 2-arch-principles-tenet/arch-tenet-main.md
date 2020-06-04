@@ -6,7 +6,7 @@ permalink: /arch-principles-tenet/
 --- 
 1. [Architectural tenet - why we need this?]({{site.baseurl}}/arch-principles-tenet/why-need-arch-tenet/)
 2. GCP Project Setup
-3. Batch vs. stream 
+3. [Batch vs. Stream]({{site.baseurl}}/arch-principles-tenet/batch-vs-stream/)
 4. Technology radar 
 5. BigQuery principles
 	- Naming conventions
