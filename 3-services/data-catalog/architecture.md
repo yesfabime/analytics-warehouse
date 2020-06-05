@@ -2,7 +2,7 @@
 title: Analytics Warehouse - Data Catalog - Architecture
 layout: template
 filename: overview.md
-permalink: /services/data-catalog/architecture
+permalink: /services/data-catalog/architecture/
 --- 
 # Data Catalog - Architecture
 
