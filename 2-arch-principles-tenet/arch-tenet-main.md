@@ -14,7 +14,7 @@ permalink: /arch-principles-tenet/
 		- General description
 		- Labelling of objects
 2. GCP Project Setup
-3. [Batch vs. Stream]({{site.baseurl}}/arch-principles-tenet/ref-patterns/batch-vs-stream/) 
+3. [Batch vs. Stream]({{site.baseurl}}/arch-principles-tenet/batch-vs-stream/)
 4. Technology radar 
 5. BigQuery principles
 	- Naming conventions
