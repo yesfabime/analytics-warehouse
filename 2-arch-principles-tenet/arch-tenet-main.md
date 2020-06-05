@@ -17,9 +17,9 @@ permalink: /arch-principles-tenet/
 3. [Batch vs. Stream]({{site.baseurl}}/arch-principles-tenet/batch-vs-stream/)
 4. Technology radar 
 5. BigQuery principles
+    - General BigQuery principles
 	- Naming conventions
 	- Data exposure via views
-	- Cascading views
 6. How we handle PII data
 7. Serverless as a core pillar
 8. Reference architecture patterns
