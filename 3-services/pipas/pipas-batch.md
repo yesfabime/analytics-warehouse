@@ -23,7 +23,7 @@ The current supported file types for Pipas - Batch are:
 
 There are onlw few more steps left until you will get your Pipas ready in production:
 
-1. **Test your authentication**<br/>
+1. <a class="anchor_style" id="test-auth">**Test your authentication**</a><br/>
 After the check of all information you have provided to us you will receive an email that the Pipas has been deployed successful. The last step on your side it so integrate the authentication. Examples can be found [**here**]({{site.baseurl}}/services/pipas/batch/test-auth/){:target="_blank"}. 
 
 2. **You are completely ready to use your pipe**<br/>

@@ -29,23 +29,23 @@ You need to decide later in this guide if you want to use stream or batch our da
 <br/>
 Anyway, if batch or stream, you have some prerequisites you need to do first:
 
-1. **Know your Business / Data Object**<br/>
+1. <a class="anchor-style" id="bo-info">**Know your Business / Data Object**</a><br/>
 You must be 100% clear about the data structure of your object you are sending to us. If you aren't sure what this means, we would be happy to have a personalised chat with you. Please request a slot [**via this form.**](https://forms.gle/6MMaC1DU68grrGve7){:target="_blank"}
 
-2. **GCP Project**<br/>
+2. <a class="anchor-style" id="get-gcp-project">**GCP Project**</a><br/>
 Your data object will be historicised within a project of the analytics context. This means, in case you already have a existing GCP project, you will get another one that is only for historicising your data. Request such a historicisation project [**via this form**](https://forms.gle/RgeJxk2qNexRcnY89){:target="_blank"}.
 
 
-3. **Create BQ Schema**<br/>
+3. <a class="anchor-style" id="create-bq-schema">**Create BQ Schema**</a><br/>
 Within the project you just received, you need to go to BigQuery and create a dataset and a schema table. This table represents the schema of your Business Object, that you are going to send to the Pipas API endpoint (Data Receiver Service). How you are going to do this, can be found in [**creating a BQ schema**]({{site.baseurl}}/services/pipas/stream/create-bq-schema/){:target="_blank"}. 
 
-4. **Test your BQ Schema**<br/>
+4. <a class="anchor-style" id="test-bq-schema">**Test your BQ Schema**</a><br/>
 To make sure the schema table within BigQuery is a valid representation of the object you are sending to the Pipas API Endpoint (Data Receiver Service), we providing to you an Endpoint where you can test if the data object that you are sending matches with the schema table you just created. How to do this,  can be found in [**test your BQ schema**]({{site.baseurl}}/services/pipas/stream/test-bq-schema/){:target="_blank"}.
 
-5. **Get your own Pipas**<br/>
+5. <a class="anchor-style" id="get-pipas">**Get your own Pipas**</a><br/>
 Now you are ready to go. Just fill in [**here**](https://forms.gle/aqMAffUZVa3yj2aT8){:target="_blank"} some information, then we will double check everything. If every component is as it is expected, then you will receive an email with detailed information of what we've created for you
 
-6. **Batch vs Stream**<br/>
+6. <a class="anchor-style" id="batch-vs-stream">**Batch vs Stream**</a><br/>
 Based on the description above, now you need to choose what you are able to use - batch or stream. **Again, we highly recommend to tune your system that you are able to use stream.** If you need consultancy in this topic, feel free to ping [**Fabian**](mailto:seitzf@mediamarktsaturn.com).<br/>
 Based on the type of data ingest you have chosen, have a look at the corresponding docs:
 {:refdef: id="custom-ol-center"} 

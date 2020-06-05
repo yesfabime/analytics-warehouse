@@ -31,3 +31,4 @@ permalink: /arch-principles-tenet/
 	- Error Handling
 	- Shared Database
 	- Logging
+11. [Integration of Pipe-a-a-Service and Data Catalog]({{site.baseurl}}/arch-principles-tenet/integration-pipas-dc/)
