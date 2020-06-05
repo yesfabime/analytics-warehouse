@@ -36,12 +36,6 @@ Let’s go back to the metaphor of the first section - the way off-road and the 
 I think, at the latest, this huge number convinced you that Team C’s way was a blind lane. 
 Overall, I hope that the example could emphasize how important an architectural tenet is. The reason why I choose this very easy situation is to showcase the core message. In the next section we will go into more details with a real life example of an off-road and a blind lane situation. 
 
-# Real life App with a tenet
-TODO
-
-# Strategies to avoid blind-lanes
-TODO
-
 
 
 
