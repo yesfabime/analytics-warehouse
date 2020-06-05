@@ -61,7 +61,7 @@ inherited by every other folder. There are several folder depending on the diffe
 - Cloud Foundation 
 
 There are folder admins for every of these folders who take care of the rules coming by above mentioned instances which can not be 
-inherited because of technical constrains and they also organize the project structure within the folder. For analytics this is Fabian Seitz and Tobias Hoke. 
+inherited because of technical constrains and they also organize the project structure within the folder. For analytics this is [Fabian Seitz](mailto:seitzf@mediamarktsaturn.com) and [Tobias Hoke](mailto:hoke@mediamarktsaturn.com). 
 
-![Project stages best practice]({{site.baseurl}}/2-arch-principles-tenet/gcp-project-setup/stages.png "Project Stage Analytics Domain")
+![Project setup MMS]({{site.baseurl}}/2-arch-principles-tenet/gcp-project-setup/mms-structure.png "Project setup MMS")
 
