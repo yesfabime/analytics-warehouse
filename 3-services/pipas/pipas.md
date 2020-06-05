@@ -23,22 +23,9 @@ The biggest advantage is, that Pipas is very easy to use. All you have to do is 
 ![Fast development easier management]({{site.baseurl}}/3-services/pipas/faster-development-easier-management.png)
 {: refdef}
 
-First of all, while using **Pipas** you have to make sure that you know the difference between **stream** and **batch** pipelines:
+First of all, while using **Pipas** you have to make sure that you know the difference between **stream** and **batch** pipelines. More details how to differentiate this can be found [here]({{site.baseurl}}/arch-principles-tenet/ref-patterns/batch-vs-stream/).
 
-- Batch (bounded data):<br/>
-    *Batch processing is where the processing happens of blocks of data that have already been stored over a period of time. For example, processing all the transaction that have been performed by a major financial firm in a week. This data contains millions of records for a day that can be stored as a file or record etc. This particular file will undergo processing at the end of the day for various analysis that firm wants to do.* 
-
-    → In Batch you process one (or sometimes more than one) file with a lot of rows (>1).
-
-- Stream (unbounded data):<br/>
-    *Stream processing is a golden key if you want analytics results in real time. Stream processing allows us to process data in real time as they arrive and quickly detect conditions within small time period from the point of receiving the data. Stream processing allows you to feed data into analytics tools as soon as they get generated and get instant analytics results.* 
-
-    → In Stream you process one message - in general one json-file per request. 
-<br/>
-[Source: [Big Data Battle : Batch Processing vs Stream Processing](https://medium.com/@gowthamy/big-data-battle-batch-processing-vs-stream-processing-5d94600d8103){:target="_blank"}]
-
-
-Based on the description above, you need to decide later in this doc if you want to use stream or batch our data. **In general we highly recommend to tune your system to be able to do stream.**
+You need to decide later in this guide if you want to use stream or batch our data. **In general we highly recommend to tune your system to be able to do stream.**
 <br/>
 Anyway, if batch or stream, you have some prerequisites you need to do first:
 
@@ -48,8 +35,15 @@ You must be 100% clear about the data structure of your object you are sending t
 2. **GCP Project**<br/>
 Your data object will be historicised within a project of the analytics context. This means, in case you already have a existing GCP project, you will get another one that is only for historicising your data. Request such a historicisation project [via this form](https://forms.gle/RgeJxk2qNexRcnY89){:target="_blank"}.
 
-3. **Batch vs Stream**<br/>
-Based on the description above, now you need to choose what you are able to use - batch or stream. **Again, we highly recommend to tune your system that you are able to use stream.** If you need consultancy in this topic, feel free to ping seitzf@mediamarktsaturn.com. 
+
+3. **Create BQ Schema**<br/>
+Within the project you just received, you need to go to BigQuery and create a dataset and a schema table. This table represents the schema of your Business Object, that you are going to send to the Pipas API endpoint (Data Receiver Service). How you are going to do this, can be found in [creating a BQ schema]({{site.baseurl}}/services/pipas/stream/create-bq-schema/){:target="_blank"}. 
+
+4. **Test your BQ Schema**<br/>
+To make sure the schema table within BigQuery is a valid representation of the object you are sending to the Pipas API Endpoint (Data Receiver Service), we providing to you an Endpoint where you can test if the data object that you are sending matches with the schema table you just created. How to do this,  can be found in [test your BQ schema]({{site.baseurl}}/services/pipas/stream/test-bq-schema/){:target="_blank"}.
+
+5. **Batch vs Stream**<br/>
+Based on the description above, now you need to choose what you are able to use - batch or stream. **Again, we highly recommend to tune your system that you are able to use stream.** If you need consultancy in this topic, feel free to ping seitzf@mediamarktsaturn.com.<br/>
 Based on the type of data ingest you have chosen, have a look at the corresponding docs:
 {:refdef: id="custom-ol-center"} 
 - [Pipas - Stream]({{site.baseurl}}/services/pipas/stream/)

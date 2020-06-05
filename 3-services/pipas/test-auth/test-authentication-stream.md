@@ -1,7 +1,7 @@
 ---
 title: Analytics Warehouse - Pipas Stream
 layout: template
-filename: test-authentication.md
+filename: test-authentication-stream.md
 permalink: /services/pipas/stream/test-auth/
 --- 
 # Implement authentication
