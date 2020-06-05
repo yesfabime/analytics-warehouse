@@ -1,7 +1,7 @@
 ---
 title: BigQuery principles - Naming conventions
 layout: template
-filename: naming-conventions.md
+filename: general-principles.md
 permalink: /arch-principles-tenet/bigquery-principles/general-principles
 --- 
 
