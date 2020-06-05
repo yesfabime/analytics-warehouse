@@ -13,13 +13,12 @@ permalink: /arch-principles-tenet/
 	- Maturities of data / business objects
 		- General description
 		- Labelling of objects
-2. GCP Project Setup
+2. [GCP Project Setup]({{site.baseurl}}/arch-principles-tenet/gcp-project-setup/gcp-project-setup/)
 3. [Batch vs. Stream]({{site.baseurl}}/arch-principles-tenet/batch-vs-stream/)
 4. Technology radar 
 5. BigQuery principles
-	- Naming conventions
-	- Data exposure via views
-	- Cascading views
+    - [General Principles]({{site.baseurl}}/arch-principles-tenet/bigquery-principles/general-principles/)
+	- [Naming Conventions]({{site.baseurl}}/arch-principles-tenet/bigquery-principles/naming-conventions/)
 6. How we handle PII data
 7. Serverless as a core pillar
 8. Reference architecture patterns
