@@ -121,3 +121,8 @@ SOFTWARE.
 .pl-mo /* meta.output */ {
   color: #1d3e81;
 }
+
+#custom-ol-center {
+  text-align: right;
+  list-style: none;
+}
