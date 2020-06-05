@@ -8,15 +8,10 @@ Here you can find every service that we as a Analytics Warehouse are offering to
 
 # Data Catalog
 
-Imagine the following situation: You are a  Data Scientist, ML Engineer, Data Engineer or similar and you want to start 
-a new analytical project. For this project you need different kinds of data. In a modern distributed multiproject GCP 
+Imagine the following situation: You want to start 
+a new data-driven project. For this project you need different kinds of data. In a modern distributed multiproject GCP 
 landscape you quickly lose the overview in which table in which project the desired data can be found. Wouldn't it 
 be very helpful if there was a kind of *catalog* where all the data and their connection to other data are bundled?
-
-We started first with a look at the [Google Cloud Data Catalog](https://cloud.google.com/data-catalog). 
-This is a very great GCP tool, but for our purposes it was not mature enough (as of September 2019). 
-There was one big thing missing: How are data objects  related to other data objects? Is there any connection to others 
-at all? 
 
 Therefore we created our own **Data Catalog**. [Click here for further information]({{site.baseurl}}/services/data-catalog/).
 <br/><br/>

@@ -6,9 +6,13 @@ permalink: /services/data-catalog/
 --- 
 # Data Catalog - Overview
 
+We started first with a look at the [Google Cloud Data Catalog](https://cloud.google.com/data-catalog). 
+This is a very great GCP tool, but for our purposes it was not mature enough (as of September 2019). 
+There was one big thing missing: How are data objects  related to other data objects? Is there any connection to others 
+at all? 
 
-First of all it's important to know, that our Data Catalog is based on **Business Objects (BO)**, not Data Objects 
-(click here for further information).
+First of all it's important to know, that our Data Catalog is based on **Business Objects (BO)** and  **Data Objects**
+ [Click here for further information]({{site.baseurl}}/services/data-catalog/).
 
 Our Data Catalog can be seen as the entry point for every analytical use-case. It simplifies and speeds up the life of 
 everyone who wants to work with data, because our Data Catalog brings all metadata information about Business Objects 
@@ -32,7 +36,7 @@ The SQL Generator creates a ready to use SQL with all needed Business Objects jo
 care about the columns you have to join on. <br/> <br/>
 But attention, the SQLs you will get are just templates. They are ready to execute, but you may need to adjust 
 it to fit your use case. I. e. in the most of the use-cases you do not need all columns, so please remove all columns
-from the query you don't need, it saves you a lot of costs! <br/> <br/>
+from the query you don't need, it saves you a lot of costs! (TODO Add link to BQ) <br/> <br/>
 Furthermore you have to be aware of which country/countries you want to consider. By default, if you select no specific country, 
 you will get all available countries (of course only if the Business Object distinguishes between countries). 
 
