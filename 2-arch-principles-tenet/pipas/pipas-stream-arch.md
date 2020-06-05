@@ -21,7 +21,6 @@ All components in detail:
  <a href="https://cloud.google.com/run" target="_blank">Google Cloud Run Service</a> via a standard REST API call.
  If the json body of the POST request isn't broken, the sender immediately gets a 200 back.
 
-
 - **Data Receiver Service**: The only job of this service is to add some metadata information to the received json message 
 and push it to a <a href="https://cloud.google.com/pubsub" target="_blank">Google Cloud Pub/Sub</a> Topic.
 There are several reasons why it is better to have this service than pushing directly on Pub/Sub. First, with Cloud Run you can easily set a custom DNS.
