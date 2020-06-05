@@ -18,9 +18,8 @@ Our overarching goal is to build a [distributed data mesh](https://martinfowler.
 3. [**Pipas**]({{site.baseurl}}/services/pipas/)
 	- [Create a BQ schema via the BigQuery UI]({{site.baseurl}}/services/pipas/stream/create-bq-schema/)
 	- [Test your BQ schema via the customer check]({{site.baseurl}}/services/pipas/stream/test-bq-schema/)
+	- [Get your own Pipas - Stream](https://forms.gle/aqMAffUZVa3yj2aT8){:target="_blank"}
 	- [**Pipas - Stream**]({{site.baseurl}}/services/pipas/stream/)
-		- [Get your own Pipas - Stream](https://forms.gle/aqMAffUZVa3yj2aT8){:target="_blank"}
 		- [Test your authentication for your stream pipas]({{site.baseurl}}/services/pipas/stream/test-auth/){:target="_blank"}
 	- [**Pipas - Batch**]({{site.baseurl}}/services/pipas/batch/)
-		- [Get your own Pipas - Batch](https://forms.gle/BuGNuZsSD9kHkaDq7){:target="_blank"}
 		- [Test your authentication for your batch pipas]({{site.baseurl}}/services/pipas/batch/test-auth/){:target="_blank"}
