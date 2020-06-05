@@ -68,4 +68,20 @@ Even if it is only one sentence - a description makes it more easier for everyon
 which is given in the metadata will be exposed to the datacatalog and helps to bring transparency. 
 
 
+## Data exposure via views 
+
+In general data is only share via views - not on table base (team external of course). This prevents any unwanted 
+data manipulation on the base data. Therefore we will only expose views within the datacatalog. 
+
+The charming effect of views is also that views can limit the data which can be seen from the base table. Simple 
+example: 
+
+We have a sales table of all countries, the spanish colleagues are only allowed to see sales data from ES 
+with the help of view you can filter in the view select statement to only ES data and provide this view to the 
+spanish colleagues. 
+
+Here are more information about how [views can be created](https://cloud.google.com/bigquery/docs/views)
+
+It is also common practice to create cascading views. This means you can also create a new view based on another 
+view if the use case makes it necessary to limit the data once more. 
 
