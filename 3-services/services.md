@@ -8,6 +8,17 @@ Here you can find every service that we as a Analytics Warehouse are offering to
 
 # Data Catalog
 
+Imagine the following situation: You want to start 
+a new data-driven project. For this project you need different kinds of data. In a modern distributed multiproject GCP 
+landscape you quickly lose the overview in which table in which project the desired data can be found. Wouldn't it 
+be very helpful if there was a kind of *catalog* where all the data and their connection to other data are bundled?
+
+Therefore we created our own **Data Catalog**. [Click here for further information]({{site.baseurl}}/services/data-catalog/).
+<br/><br/>
+**Related links to this topic:**
+1. [Data Catalog Homepage](https://datacatalog.mediamarktsaturn.com/){:target="_blank"}
+2. [Integrating my Business Object into Data Catalog]({{site.baseurl}}/services/data-catalog/integrating-new-bo/)
+
 
 # Pipe as a Service
 Our overarching goal is to build a [distributed data mesh](https://martinfowler.com/articles/data-monolith-to-mesh.html){:target="_blank"} for every datasource that lives within MediaMarktSaturn. This implies that we move from a legacy batch processing mode to a full streaming approach. A big enabler for this is a toolset that enables you to make use of streaming pipelines without getting in touch with too much details. This is the reason why we introduce Pipe as a Service. [Click here for further information]({{site.baseurl}}/services/pipas/).

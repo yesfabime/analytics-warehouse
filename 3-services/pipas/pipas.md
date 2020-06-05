@@ -23,7 +23,7 @@ The biggest advantage is, that Pipas is very easy to use. All you have to do is 
 ![Fast development easier management]({{site.baseurl}}/3-services/pipas/faster-development-easier-management.png)
 {: refdef}
 
-First of all, while using **Pipas** you have to make sure that you know the difference between **stream** and **batch** pipelines. More details how to differentiate this can be found [**here**]({{site.baseurl}}/arch-principles-tenet/ref-patterns/batch-vs-stream/).
+First of all, while using **Pipas** you have to make sure that you know the difference between **stream** and **batch** pipelines. More details how to differentiate this can be found [**here**]({{site.baseurl}}/arch-principles-tenet/batch-vs-stream/).
 
 You need to decide later in this guide if you want to use stream or batch our data. **In general we highly recommend to tune your system to be able to do stream.**
 <br/>
