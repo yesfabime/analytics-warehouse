@@ -27,11 +27,10 @@ Our overarching goal is to build a [distributed data mesh](https://martinfowler.
 1. [Request a slot for designing your data object](https://forms.gle/6MMaC1DU68grrGve7){:target="_blank"}
 2. [Request a GCP project for your Analytics use-case](https://forms.gle/RgeJxk2qNexRcnY89){:target="_blank"}
 3. [**Pipas**]({{site.baseurl}}/services/pipas/)
-	- [Create a BQ schema via the BigQuery UI]({{site.baseurl}}/services/pipas/stream/create-bq-schema/)
-	- [Test your BQ schema via the customer check]({{site.baseurl}}/services/pipas/stream/test-bq-schema/)
-	- [**Pipas - Stream**]({{site.baseurl}}/services/pipas/stream/)
-		- [Get your own Pipas - Stream](https://forms.gle/aqMAffUZVa3yj2aT8){:target="_blank"}
-		- [Test your authentication for your stream pipas]({{site.baseurl}}/services/pipas/stream/test-auth/){:target="_blank"}
-	- [**Pipas - Batch**]({{site.baseurl}}/services/pipas/batch/)
-		- [Get your own Pipas - Batch](https://forms.gle/BuGNuZsSD9kHkaDq7){:target="_blank"}
-		- [Test your authentication for your batch pipas]({{site.baseurl}}/services/pipas/batch/test-auth/){:target="_blank"}
+	- [Create a BQ schema via the BigQuery UI]({{site.baseurl}}/services/pipas/stream/create-bq-schema/#create-bq-schema)
+	- [Test your BQ schema via the customer check]({{site.baseurl}}/services/pipas/stream/test-bq-schema/#test-bq-schema)
+	- [Get your own Pipas - Stream](https://forms.gle/aqMAffUZVa3yj2aT8){:target="_blank"}
+	- [**Pipas - Stream**]({{site.baseurl}}/services/pipas/stream/#pipas-stream)
+		- [Test your authentication for your stream pipas]({{site.baseurl}}/services/pipas/stream/test-auth/#test-auth){:target="_blank"}
+	- [**Pipas - Batch**]({{site.baseurl}}/services/pipas/batch/#pipas-batch)
+		- [Test your authentication for your batch pipas]({{site.baseurl}}/services/pipas/batch/test-auth/#test-auth){:target="_blank"}

@@ -1,5 +1,5 @@
 ---
-title: Analytics Warehouse - Pipas Stream
+title: Analytics Warehouse - Pipas Stream Test BQ Schema
 layout: template
 filename: test-bq-schema.md
 permalink: /services/pipas/stream/test-bq-schema/

@@ -1,5 +1,5 @@
 ---
-title: Analytics Warehouse - Pipas Stream Arch
+title: Analytics Warehouse - Pipas Batch Arch
 layout: template
 filename: pipas-batch-arch.md
 permalink: /arch-principles-tenet/ref-patterns/pipas-batch/

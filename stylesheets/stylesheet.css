@@ -15,6 +15,13 @@ a {
   a:hover {
     text-decoration: underline; }
 
+/*customizing start*/
+a.anchor-style {
+  color: #606c71;
+  text-decoration: none;
+}
+/*customizing end*/
+
 .btn {
   display: inline-block;
   margin-bottom: 1rem;

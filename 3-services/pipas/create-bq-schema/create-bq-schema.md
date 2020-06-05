@@ -1,5 +1,5 @@
 ---
-title: Analytics Warehouse - Pipas Stream
+title: Analytics Warehouse - Pipas Stream Create BQ Schema
 layout: template
 filename: create-bq-schema.md
 permalink: /services/pipas/stream/create-bq-schema/

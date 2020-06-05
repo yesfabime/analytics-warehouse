@@ -1,5 +1,5 @@
 ---
-title: Analytics Warehouse - Pipas Stream
+title: Analytics Warehouse - Pipas Stream Auth
 layout: template
 filename: test-authentication-stream.md
 permalink: /services/pipas/stream/test-auth/

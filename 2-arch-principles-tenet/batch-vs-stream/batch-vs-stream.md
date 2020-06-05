@@ -29,4 +29,3 @@ these days. Some Examples:
 - Processing data as they arrive spreads workloads out more evenly over time, yielding more consistent and predictable consumption of resources.
 
 [Source: [The-world-beyond-batch-streaming-101](https://www.oreilly.com/radar/the-world-beyond-batch-streaming-101/){:target="_blank"}]
-

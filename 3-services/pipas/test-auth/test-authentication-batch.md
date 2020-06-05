@@ -1,5 +1,5 @@
 ---
-title: Analytics Warehouse - Pipas Stream
+title: Analytics Warehouse - Pipas Batch Auth
 layout: template
 filename: test-authentication-batch.md
 permalink: /services/pipas/batch/test-auth/
