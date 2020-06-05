@@ -2,7 +2,7 @@
 title: BigQuery principles - Naming conventions
 layout: template
 filename: naming-conventions.md
-permalink: /arch-principles-tenet/bigquery-principles/naming-conventions
+permalink: /arch-principles-tenet/bigquery-principles/naming-conventions/
 --- 
 
 # BigQuery Principles - Naming Conventions
