@@ -34,3 +34,6 @@ Our overarching goal is to build a [distributed data mesh](https://martinfowler.
 		- [Test your authentication for your stream pipas]({{site.baseurl}}/services/pipas/stream/test-auth/#test-auth){:target="_blank"}
 	- [**Pipas - Batch**]({{site.baseurl}}/services/pipas/batch/#pipas-batch)
 		- [Test your authentication for your batch pipas]({{site.baseurl}}/services/pipas/batch/test-auth/#test-auth){:target="_blank"}
+
+# Stackdriver to MS Teams connector
+We use Stackdriver as our logging, monitoring & alerting tool. Therefore we highly rely on getting all events fired to the chat tools we are using. As MMS determined that MS Teams is the future of chat & video collaboration, we needed a connector that fires the messages directly in MS Teams channels. [Click here for further information]({{site.baseurl}}/services/stackdriver-msteams/).
