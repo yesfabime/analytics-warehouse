@@ -22,7 +22,7 @@ So what you have to do if you want to use our service? I will show you step by s
     ![search_for_incoming_webhook.png]({{site.baseurl}}/3-services/stackdriver-msteams/search_for_incoming_webhook.png)
     {: refdef}
 4. Select the **Configure button**, provide a name, and, optionally, upload an image avatar for your webhook.
-5. The dialog window will present a unique URL that will map to the channel. Make sure that you copy and save the URL — you will need to provide it to our service!.
+5. The dialog window will present a unique URL that will map to the channel. Make sure that you copy and save the URL — you will need to provide it to our service.
     {:refdef: style="text-align: center;"}
     ![copy_webhook_url.png]({{site.baseurl}}/3-services/stackdriver-msteams/copy_webhook_url.png)
     {: refdef}
