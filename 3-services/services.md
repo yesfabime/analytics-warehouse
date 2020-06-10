@@ -35,5 +35,10 @@ Our overarching goal is to build a [distributed data mesh](https://martinfowler.
 	- [**Pipas - Batch**]({{site.baseurl}}/services/pipas/batch/#pipas-batch)
 		- [Test your authentication for your batch pipas]({{site.baseurl}}/services/pipas/batch/test-auth/#test-auth){:target="_blank"}
 
+
 # Stackdriver to MS Teams connector
 We use Stackdriver as our logging, monitoring & alerting tool. Therefore we highly rely on getting all events fired to the chat tools we are using. As MMS determined that MS Teams is the future of chat & video collaboration, we needed a connector that fires the messages directly in MS Teams channels. [Click here for further information]({{site.baseurl}}/services/stackdriver-msteams/).
+
+
+# Reporting Gallery
+The scope of our Analytics Warehouse is not limited on high sophisticated Analytics Use-Cases but also imply reporting cases. For this, we are providing you an overview of all Dashboards that are available through the Analytics Warehouse. [Click here for further information](https://datastudio.google.com/u/0/reporting/16WoSqAvzt1imDrpPF8BCdNrpU4pS5lIF/page/QnMPB){:target="_blank"}.
