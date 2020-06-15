@@ -31,3 +31,4 @@ permalink: /arch-principles-tenet/
 	- Shared Database
 	- Logging
 11. [Integration of Pipe-a-a-Service and Data Catalog]({{site.baseurl}}/arch-principles-tenet/integration-pipas-dc/)
+12. [IAM Setup]({{site.baseurl}}/arch-principles-tenet/iam-setup/)
