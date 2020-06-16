@@ -28,7 +28,7 @@ So what you have to do if you want to use our service? I will show you step by s
     {: refdef}
 6. Select the Done button. The webhook will be available in the team channel.
 7. Add the user **analytics-virtualisation-layer@mediamarktsaturn.com** to your as Project as **Project Owner**. 
-8. Go to our [Web UI](https://stackdriver-msteams-connector-web-ui-lbxce2mtxa-ew.a.run.app){:target="_blank"} and Sign in with your MediaMarktSaturn Google Account. 
+8. Go to our [Web UI](https://stackdriver-msteams-connector-flaskui-lbxce2mtxa-ew.a.run.app){:target="_blank"} and Sign in with your MediaMarktSaturn Google Account. 
 9. Fill in the Textfields in our Web UI. Here you need your copied webhook URL, your GCP Project ID (where you want to deploy our connector.  **Attention**, Stackdriver must be enabled in your project.) and your custom display name. 
      {:refdef: style="text-align: center;"}
     ![filled_forms.png]({{site.baseurl}}/3-services/stackdriver-msteams/filled_forms.png)
